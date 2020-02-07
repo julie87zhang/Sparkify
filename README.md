@@ -1,6 +1,6 @@
 # Using Spark to Predict Churn
 A binary classification problem solved with Spark and Spark's MLlib.
-[Medium Post](https://medium.com/@claireyan/using-spark-to-predict-churn-c69e675272bf)
+[WordpressPost](https://juliedata.science.blog/2020/02/07/how-to-better-prevent-subscription-churn/)
 
 
 ## Project Motivation
@@ -15,9 +15,4 @@ This project serves as an exploration of how to make a churn-prediction model us
 ## Analysis Results
 - Best model: `LogisticRegression(msxIter=10)`
 - Best f1-score: 0.75 among 62 test samples
-- Top feature importances:
-  - days after registration
-  - setting-checking events per hour
-  - upgrade-related events per hour
-  - ads watched per hour
-  - songs played per hour
+
